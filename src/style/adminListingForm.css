@@ -1,0 +1,66 @@
+#admin-listing {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+#admin-listing form {
+  width: 100%;
+  max-width: 700px;
+}
+
+#admin-listing .form-control {
+  background-color: #000;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 8px;
+}
+
+#admin-listing .form-control::placeholder {
+  color: #ccc;
+}
+
+#admin-listing .btn-primary {
+  background-color: #9334e9;
+  border-color: #9334e9;
+  width: 200px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+#admin-listing .btn-primary:hover {
+  background-color: #7a27c3;
+  border-color: #7a27c3;
+}
+
+/* Liste des listings */
+#admin-listing .list-group-item {
+  background-color: #111;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+#admin-listing .btn-secondary {
+  background-color: #444;
+  border-color: #444;
+}
+
+#admin-listing .btn-secondary:hover {
+  background-color: #666;
+  border-color: #666;
+}
+
+#admin-listing .btn-danger {
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+#admin-listing .btn-danger:hover {
+  background-color: #c62828;
+  border-color: #c62828;
+}
